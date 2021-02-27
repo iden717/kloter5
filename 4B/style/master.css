@@ -1,0 +1,45 @@
+body{
+    padding: 50px;
+}
+#deskripsi{
+    white-space: nowrap; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#delete-btn{
+    background: #dc3545;
+    display: block;
+    width: 70px;
+    height: 70px;
+    line-height: 60px;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    text-decoration: none;
+    transition: ease all 0.3s;
+    position: fixed;
+    bottom:30px;
+  }
+#delete-btn:hover{background: #1a5dff}
+
+#act-btn{
+  background: #198754;
+  display: block;
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
+  text-align: center;
+  color: white;
+  font-size: 45px;
+  font-weight: bold;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  text-decoration: none;
+  transition: ease all 0.3s;
+  position: fixed;
+  bottom:110px;
+}
+#act-btn:hover{background: #1a5dff}
