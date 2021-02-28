@@ -58,7 +58,7 @@
     </div>
     <div class="container-fluid" style="padding-bottom: 50px;">
     <div class="row">
-    <form method="GET" action="add.php" enctype="multipart/form-data">
+    <form method="POST" action="add.php" enctype="multipart/form-data">
         <div class="col-sm-4">
             <div class="card">
                 <div class="card-header">
